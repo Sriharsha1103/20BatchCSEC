@@ -19,12 +19,23 @@ h3 {
 
 
 .inner-container {
-    /* margin-left: 20px;
-    margin-right:20px;
-    margin-bottom: 140px;
-    margin-top: 140px; */
     margin: 100px 20px;
     padding: 16px;
+}
+
+.nested-container {
+    border-top: 2px red dotted !important;
+    border: 3px blue solid;
+    border-radius: 2px;
+    padding: 20px;
+    margin-top: -22px !important;
+    margin: 0 16px;
+}
+
+.floatObject {
+    position: relative;
+    top: 20px; 
+    right: 25px;
 }
 
 .decor-1 {
