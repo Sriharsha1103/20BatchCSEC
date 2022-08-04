@@ -1,0 +1,54 @@
+* { font-family: "Arial Black", Gadget, sans-serif;}
+
+div * { font-family: "Comic Sans MS", cursive, sans-serif; }
+
+.sitelink { font-family: Georgia, serif; }
+
+#tonyquote{
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: black;
+}
+
+p.sitelink {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: black;
+}
+
+span#tonyname {
+  font-family: "Times New Roman", Times, serif;
+  color: blue;
+}
+
+#tutorials ol li {
+  color: purple;
+}
+/* Descendents */
+#tutorials ul li {
+  color: green;
+}
+
+/* +  Immediate element*/
+h3 + p {
+  font-style: italic;
+}
+
+/* , Common elements */
+h3 , p{
+  color: pink;
+}
+/* >  Immediate child/children*/
+h3 + p > a {
+  color: red;
+}
+
+p[id] {
+  background-color: gray;
+}
+
+p[class]{
+  background: yellow;
+}
+
+[alt~='nintendo']{
+  background-color: red;
+}

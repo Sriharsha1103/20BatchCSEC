@@ -1,0 +1,35 @@
+#parent-div{
+    background-color: gray;
+    border: 0 solid black;
+}
+
+#default {
+    background-color: #D8E9F4;
+}
+
+#centered-text{
+    text-align: center;
+}
+
+#centered{
+    background-color: pink;
+    width:70%;
+    margin:auto;
+}
+
+#top-left-pos{
+    border: 0.1em solid black;
+    width: 200px;
+    height:100px;
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: black;
+    color: white;
+}
+
+#bottom-right-tl-parent{
+    position: absolute;
+    bottom:0;
+    right:0;
+}
