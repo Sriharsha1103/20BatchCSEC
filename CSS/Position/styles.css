@@ -33,3 +33,50 @@
     bottom:0;
     right:0;
 }
+
+#top-right-pos{
+    width: 300px;
+    height: 200px;
+    border: 0.2em solid blueviolet;
+    position: absolute;
+    top:0;
+    right:0;
+    background: blueviolet;
+}
+
+#bottom-left-tr-parent{
+    position: absolute;
+    top:0;
+    right:0;
+}
+
+#fixed-pos{
+    position: fixed;
+    top:100px;
+    left:50px;
+    
+}
+
+#static-pos{
+    position: static;
+    color: #D8E9F4;
+}
+
+#sticky{
+    position: sticky;
+    top:200px;
+}
+
+#relative-1{
+    position: relative;
+    top: 20px;
+    left:50px;
+    border: 0.1em solid black;
+}
+
+#relative-2{
+    position: relative;
+    top:100px;
+    right:20px;
+    border: 0.2em solid blue;
+}
